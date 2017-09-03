@@ -178,3 +178,17 @@ body {
   fill: currentcolor;
   vertical-align: top;
 }
+
+#container {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 260px) {
+  .c-tile-list {
+    width: fit-content;
+  }
+}
